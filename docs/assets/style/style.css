@@ -1,0 +1,33 @@
+body {
+  background: #f0f0ff;
+}
+
+body.essay {
+  background: url("../../image/essay.jpg");
+}
+
+hr {
+  border-style: solid none none none;
+}
+
+.page-title {
+  padding-top: 25px;
+  text-align: center;
+}
+
+/* 出版本 */
+.essay-list {
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 33px;
+}
+.essay-list a {
+  font-weight: bold;
+}
+
+/* 管理者のページ */
+.admin-attention {
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
