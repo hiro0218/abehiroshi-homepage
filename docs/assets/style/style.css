@@ -8,6 +8,10 @@ body.essay {
 body.photo {
   background: url("../../image/abehiroshi.jpg");
 }
+body.stage {
+  background: url("../../image/stage.jpg");
+  padding-bottom: 25px;
+}
 
 hr {
   border-style: solid none none none;
@@ -15,8 +19,54 @@ hr {
 
 .page-title {
   padding-top: 25px;
+  font-size: 1.5em;
   text-align: center;
 }
+.sub-title {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/* 舞台出演 */
+.stage .sub-title {
+  padding-top: 29px;
+  margin-bottom: 20px;
+}
+.stage-list {
+  width: 700px;
+  margin: 0 auto;
+  font-weight: bold;
+  text-align: left;
+}
+.stage-list.stage {
+  margin-bottom: 16px;
+}
+.stage-list td:nth-child(1) {
+  width: 145px;
+}
+.stage-list td:nth-child(2) {
+  width: 350px;
+}
+.stage-list .cymbeline {
+  padding-bottom: 22px;
+}
+.stage-list .atamiMurderCase {
+  padding-top: 25px;
+}
+.stage .sub-title.radio {
+  padding-top: 22px;
+}
+.stage-list.radio {
+  margin-bottom: 35px;
+}
+.stage-list.record {
+  margin-bottom: 35px;
+}
+.stage-list.video {
+  margin-bottom: 16px;
+}
+
+
 
 /* 写真集 */
 .photo .page-title {
