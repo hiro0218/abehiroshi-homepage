@@ -5,6 +5,9 @@ body {
 body.essay {
   background: url("../../image/essay.jpg");
 }
+body.photo {
+  background: url("../../image/abehiroshi.jpg");
+}
 
 hr {
   border-style: solid none none none;
@@ -13,6 +16,19 @@ hr {
 .page-title {
   padding-top: 25px;
   text-align: center;
+}
+
+/* 写真集 */
+.photo .page-title {
+  padding-bottom: 33px;
+}
+.photo-list {
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 49px;
+  margin-bottom: 33px;
+  font-weight: bold;
+  text-align: left;
 }
 
 /* 出版本 */
