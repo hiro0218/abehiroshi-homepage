@@ -41,13 +41,13 @@ hr {
 
 /* メニュー */
 .menu-list {
-  margin-top: 52px;
   width: 142px;
+  margin-top: 54px;
+  margin-left: 6px;
 }
-.menu-list tr {
-  display: block;
-  margin-bottom: 27px;
-  margin-left: 5px;
+.menu-list td {
+  height: 54px;
+  vertical-align: top;
 }
 .menu-list td:nth-child(1) {
   width: 16px;
