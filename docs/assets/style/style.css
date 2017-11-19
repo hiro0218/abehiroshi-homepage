@@ -5,6 +5,10 @@ body {
 body.essay {
   background: url("../../image/essay.jpg");
 }
+body.movie {
+  background: url("../../image/movie.jpg");
+  padding-bottom: 25px;
+}
 body.photo {
   background: url("../../image/abehiroshi.jpg");
 }
@@ -70,6 +74,26 @@ hr {
 }
 .menu-list .symbol.kanri {
   color: #CC00CC;
+}
+
+/* 映画出演 */
+.movie-overview,
+.movie-list {
+  width: 700px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.movie-overview {
+  font-size: large;
+}
+.movie-list td:nth-child(1) {
+  width: 32%;
+}
+.movie-list td:nth-child(2) {
+  width: 46%;
+}
+.movie-list td:nth-child(3) {
+  width: 22%;
 }
 
 /* ドラマ出演 */
