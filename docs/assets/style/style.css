@@ -12,6 +12,10 @@ body.stage {
   background: url("../../image/stage.jpg");
   padding-bottom: 25px;
 }
+body.tv {
+  background: url("../../image/drama.jpg");
+  padding-bottom: 25px;
+}
 
 hr {
   border-style: solid none none none;
@@ -66,6 +70,20 @@ hr {
 }
 .menu-list .symbol.kanri {
   color: #CC00CC;
+}
+
+/* ドラマ出演 */
+.tv-list {
+  width: 700px;
+  margin: 0 auto;
+  font-weight: bold;
+  text-align: left;
+}
+.tv-list th {
+  width: 25%;
+}
+.tv-list td {
+  width: 75%;
 }
 
 /* 舞台出演 */
