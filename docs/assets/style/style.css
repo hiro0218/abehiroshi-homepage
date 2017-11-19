@@ -27,6 +27,47 @@ hr {
   text-align: center;
 }
 
+/* メニュー */
+.menu-list {
+  margin-top: 52px;
+  width: 142px;
+}
+.menu-list tr {
+  display: block;
+  margin-bottom: 27px;
+  margin-left: 5px;
+}
+.menu-list td:nth-child(1) {
+  width: 16px;
+}
+.menu-list td:nth-child(2) {
+  width: 10px;
+}
+.menu-list td:nth-child(3) {
+  width: 148px;
+}
+.menu-list .symbol.top {
+  color: #FFCCCC;
+}
+.menu-list .symbol.movie {
+  color: #00FF00;
+}
+.menu-list .symbol.tv {
+  color: #33FFFF;
+}
+.menu-list .symbol.stage {
+  color: #0099FF;
+}
+.menu-list .symbol.photo {
+  color: #0000FF;
+}
+.menu-list .symbol.essay {
+  color: #333399;
+}
+.menu-list .symbol.kanri {
+  color: #CC00CC;
+}
+
 /* 舞台出演 */
 .stage .sub-title {
   padding-top: 29px;
