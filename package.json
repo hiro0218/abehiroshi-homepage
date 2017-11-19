@@ -1,0 +1,10 @@
+{
+  "name": "abehiroshi-homepage",
+  "version": "1.0.0",
+  "main": "",
+  "repository": "https://github.com/hiro0218/abehiroshi-homepage.git",
+  "author": "hiro0218 <hiro@0218.jp>",
+  "devDependencies": {
+    "prettier": "^1.8.2"
+  }
+}
