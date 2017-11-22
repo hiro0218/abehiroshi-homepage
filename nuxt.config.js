@@ -36,6 +36,6 @@ module.exports = {
     }
   },
   generate: {
-    dir: 'docs'
+    dir: 'dist'
   }
 }
