@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link href="../assets/style/style.css" rel="stylesheet">
-    <title>阿部 寛の舞台、ラジオ、レコード、ビデオ出演</title>
-  </head>
-  <body class="stage">
+<template>
+  <div class="stage-container">
     <h2 class="page-title">阿部 寛の舞台、ラジオ、レコード、ビデオ出演</h2>
     <hr>
     <h3 class="sub-title">舞台</h3>
@@ -29,7 +23,7 @@
         <td>2009年9月 </td>
         <td>
           「<a href="http://www.bunkamura.co.jp/cocoon/lineup/shosai_09_coast.html" target="_blank">コースト・オブ・ユートピア-ユートピアの岸へ</a>」<br>
-          演出:蜷川幸雄 
+          演出:蜷川幸雄
         </td>
         <td>2009年9月12日～10月4日</td>
       </tr>
@@ -57,11 +51,11 @@
           <br>
         </td>
         <td>2004年2月
-          <br>名古屋 
+          <br>名古屋
           <a href="http://www.misonoza.co.jp/" target="_blank">御園座</a>
           <br>
-          <br>2004年3月,4月 
-          <br>東京 
+          <br>2004年3月,4月
+          <br>東京
           <a href="http://www.nissaytheatre.or.jp/index2.html" target="_blank">日生劇場</a>
         </td>
       </tr>
@@ -72,7 +66,7 @@
           つかこうへい作演出
         </td>
         <td>新宿・紀伊国屋ホール<br>
-          シアター・ドラマシティー 
+          シアター・ドラマシティー
         </td>
       </tr>
       <tr>
@@ -97,7 +91,7 @@
       <td>1996年 9月</td>
       <td>「熱海殺人事件」<br>
         <a href="#">～モンテカルロイリュージョン96'～</a><br>
-          つかこうへい作演出 
+          つかこうへい作演出
         </td>
         <td>パルコ劇場</td>
       </tr>
@@ -113,14 +107,14 @@
       <td>1995年10月</td>
       <td>「熱海殺人事件」<br>
         ～モンテカルロイリュージョン95'～ <br>
-        つかこうへい作演出 
+        つかこうへい作演出
         </td>
         <td>パルコ劇場</td>
       </tr>
       <tr>
         <td>1994年 6月</td>
         <td>「熱海殺人事件」 <br>
-          ～モンテカルロイリュージョン94'～<br> 
+          ～モンテカルロイリュージョン94'～<br>
           つかこうへい作演出
         </td>
       <td>近鉄劇場・シアターＸ</td>
@@ -130,7 +124,7 @@
       <td class="atamiMurderCase">
         「熱海殺人事件」<br>
         ～モンテカルロイリュージョン93'～<br>
-        つかこうへい作・演出 
+        つかこうへい作・演出
         </td>
         <td>シアターＸ</td>
       </tr>
@@ -162,7 +156,7 @@
       <tr>
         <td>1994年 6月</td>
         <td>「オール・オブ・ミー」 <br>
-            (「RAMPO」挿入歌) 
+            (「RAMPO」挿入歌)
         </td>
         <td>日本コロンビア</td>
       </tr>
@@ -197,5 +191,60 @@
       </tr>
     </table>
     <hr>
-  </body>
-</html>
+  </div>
+</template>
+
+<script>
+export default {
+}
+</script>
+
+<style lang="scss">
+.stage-container {
+  min-height: 100%;
+  background: url("~assets/image/stage.jpg");
+  padding-bottom: 25px;
+
+  .page-title {
+    padding: 45px 0 12px;
+  }
+  .sub-title {
+    padding-top: 29px;
+    margin-bottom: 20px;
+  }
+  .sub-title.radio {
+    padding-top: 22px;
+  }
+}
+
+.stage-list {
+  width: 700px;
+  margin: 0 auto;
+  font-weight: bold;
+  text-align: left;
+}
+.stage-list.stage {
+  margin-bottom: 16px;
+}
+.stage-list td:nth-child(1) {
+  width: 145px;
+}
+.stage-list td:nth-child(2) {
+  width: 350px;
+}
+.stage-list .cymbeline {
+  padding-bottom: 22px;
+}
+.stage-list .atamiMurderCase {
+  padding-top: 25px;
+}
+.stage-list.radio {
+  margin-bottom: 35px;
+}
+.stage-list.record {
+  margin-bottom: 35px;
+}
+.stage-list.video {
+  margin-bottom: 16px;
+}
+</style>
