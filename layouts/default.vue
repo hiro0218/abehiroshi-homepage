@@ -36,7 +36,6 @@ body {
   height: 100%;
   width: 18%;
   background: #f0f0ff;
-  border-right: 6px ridge #404040;
 }
 
 .contents {
