@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: '「阿部寛のホームページ」をモダン化してみる' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }
     ]
   },
   /*
