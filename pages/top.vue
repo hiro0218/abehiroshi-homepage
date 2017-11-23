@@ -63,8 +63,8 @@
                 2018年3月10日公開
               </div>
             </div>
-            <hr>
           </div>
+          <hr>
         </div>
       </div>
     </div>
