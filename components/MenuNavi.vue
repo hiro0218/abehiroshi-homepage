@@ -1,7 +1,7 @@
 <template>
   <div class="menu-container">
     <ul>
-      <li class="top"><nuxt-link to="/top">トップ</nuxt-link></li>
+      <li class="top"><nuxt-link to="/">トップ</nuxt-link></li>
       <li class="movie"><nuxt-link to="/movie">映画出演</nuxt-link></li>
       <li class="tv"><nuxt-link to="/tv">ドラマ出演</nuxt-link></li>
       <li class="stage"><nuxt-link to="/stage">舞台出演</nuxt-link></li>
