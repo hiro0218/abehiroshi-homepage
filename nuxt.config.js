@@ -21,6 +21,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    publicPath: 'https://hiro0218.github.io/abehiroshi-homepage',
     /*
     ** Run ESLint on save
     */
