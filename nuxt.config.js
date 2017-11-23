@@ -32,5 +32,6 @@ module.exports = {
   },
   router: {
     base: '/abehiroshi-homepage/'
-  }
+  },
+  cache: true
 }
