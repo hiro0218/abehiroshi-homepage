@@ -40,7 +40,7 @@
           <div class="movie-award">
           ・<a href="http://www.excite.co.jp/News/cinema/20161016/Mdpr_cinema1624686.html" target="_blank">「京都国際映画祭2016」で「三船敏郎賞」受賞</a><br>
           ・第38回日本アカデミー賞「<a href="http://www.misaki-cafe.jp/" target="_blank">ふしぎな岬の物語</a>」優秀主演男優賞　受賞<br>
-          ・第38回日本アカデミー賞「柘榴坂の仇討」優秀助演男優賞　受賞
+          ・第38回日本アカデミー賞 「柘榴坂の仇討」優秀助演男優賞　受賞
           </div>
           <hr>
           <div class="movie-list">
