@@ -1,7 +1,5 @@
 module.exports = {
-  /*
-  ** Headers of the page
-  */
+  // Headers of the page
   head: {
     title: 'abehiroshi-homepage',
     meta: [
@@ -13,17 +11,11 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }
     ]
   },
-  /*
-  ** Customize the progress bar color
-  */
+  // Customize the progress bar color
   loading: false,
-  /*
-  ** Build configuration
-  */
+  // Build configuration
   build: {
-    /*
-    ** Run ESLint on save
-    */
+    // Run ESLint on save
     extend (config, ctx) {
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
