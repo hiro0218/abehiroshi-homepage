@@ -21,7 +21,6 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    publicPath: 'https://hiro0218.github.io/abehiroshi-homepage',
     /*
     ** Run ESLint on save
     */
@@ -38,5 +37,8 @@ module.exports = {
   },
   generate: {
     dir: 'dist'
+  },
+  router: {
+    base: '/abehiroshi-homepage/'
   }
 }
