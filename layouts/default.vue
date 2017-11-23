@@ -45,10 +45,6 @@ body {
   overflow: auto;
 }
 
-hr {
-  border-style: solid none none none;
-}
-
 .page-title {
   margin: 0;
   padding: 45px 0 20px;
