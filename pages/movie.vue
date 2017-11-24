@@ -501,7 +501,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .movie-container {
   min-height: 100%;
   background: url("~assets/image/movie.jpg");

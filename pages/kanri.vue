@@ -14,7 +14,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .kanri-container {
   min-height: 100%;
   background: #f0f0ff;

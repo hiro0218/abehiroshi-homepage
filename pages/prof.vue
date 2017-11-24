@@ -72,7 +72,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .prof-container {
   min-height: 100%;
   background: url("~assets/image/profile.jpg");

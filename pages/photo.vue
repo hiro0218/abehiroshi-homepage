@@ -45,7 +45,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .photo-container {
   min-height: 100%;
   background: url("~assets/image/abehiroshi.jpg");

@@ -524,7 +524,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .tv-container {
   min-height: 100%;
   background: url("~assets/image/drama.jpg");

@@ -199,7 +199,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .stage-container {
   min-height: 100%;
   background: url("~assets/image/stage.jpg");
