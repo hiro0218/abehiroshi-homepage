@@ -4,7 +4,6 @@ module.exports = {
     title: 'abehiroshi-homepage',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '「阿部寛のホームページ」をモダン化してみる' }
     ],
     link: [
