@@ -25,7 +25,12 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    postcss: [
+      require('autoprefixer')({
+        browsers: ['IE >= 11']
+      })
+    ]
   },
   generate: {
     dir: 'dist'
