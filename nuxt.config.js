@@ -37,5 +37,8 @@ module.exports = {
   router: {
     base: '/abehiroshi-homepage/'
   },
-  cache: true
+  cache: true,
+  modules: [
+    '@nuxtjs/component-cache'
+  ]
 }
